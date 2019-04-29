@@ -1,0 +1,76 @@
+a {
+  text-decoration: none;
+  color: white;
+  transition: .2s all ease;
+}
+a:hover {
+  transform: scale(1.02);
+  color: #ff6666;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  height: 10vh;
+  padding-left: 20px;
+  padding-right: 25px;
+  padding-top: 10px;
+}
+.header-logo {
+  width: 265px;
+  height: 65px;
+  background-image: url('../../images/n_logo.png');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.header-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 500px;
+  font-size: 18px;
+  margin-top: 20px;
+}
+.header-auth {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 255px;
+  margin-top: 20px;
+}
+
+.header-auth-enter-btn, .header-auth-registration-btn {
+  height: 50px;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  border: 2px solid #34e67f;
+  border-radius: 3px;
+  font-size: 18px;
+  transition: .5s all ease;
+}
+
+.header-auth-enter-btn {
+  width: 90px;
+  margin-right: 10px;
+  background-color: white;
+  color: #34e67f;
+}
+.header-auth-registration-btn {
+  width: 150px;
+  color: white;
+  background-color: #34e67f;
+}
+
+.header-auth-enter-btn:hover {
+  color: white;
+  background-color: #34e67f;
+}
+.header-auth-registration-btn:hover {
+  background-color: white;
+  color: #34e67f;
+}

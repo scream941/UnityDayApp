@@ -1,0 +1,38 @@
+.main-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+
+  height: 85vh;
+  padding-top: 2vh;
+}
+.main-section-headline {
+  text-align: center;
+  color: white;
+  font-size: 26px;
+  margin-bottom: 5vh;
+}
+
+.main-section-btn {
+  width: 365px;
+  height: 60px;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  font-size: 18px;
+
+  border: 2px solid white;
+  border-radius: 3px;
+  color: white;
+  font-weight: bold;
+  transition: .5s all ease;
+  background-color: grey;
+}
+.main-section-btn__active {
+  background-color: #ff6666;
+}
+.main-section-btn__active:hover {
+  transform: scale(1.05);
+}

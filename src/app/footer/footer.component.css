@@ -1,0 +1,63 @@
+.footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 80px;
+  padding-bottom: 20px;
+
+  height: 5vh;
+
+  font-size: 14px;
+  color: white;
+}
+a {
+  text-decoration: none;
+  color: white;
+  transition: .2s all ease;
+}
+a:hover {
+  transform: scale(1.02);
+  color: #ff6666;
+}
+.footer-partners-visa, .footer-partners-uniteller {
+  width: 50px;
+  height: 45px;
+
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.footer-partners-visa {
+  background-image: url('../../images/visa-logo.png');
+  margin-right: 10px;
+}
+
+.footer-partners-uniteller {
+  background-image: url('../../images/Uniteller-logo.png')
+}
+
+.footer-nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+  width: 640px;
+}
+
+.footer-other {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+
+  width: 440px;
+}
+.footer-partners {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-right: 40px;
+}

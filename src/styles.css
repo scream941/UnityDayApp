@@ -1,1 +1,17 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #12c5e8;
+
+}
+* {
+  box-sizing: border-box;
+  font-family: "Rotonda";
+}
+button:active, button:focus {
+  outline: none;
+}
+@font-face {
+  font-family: "Rotonda";
+  src: url('font/rotondac.otf') format('opentype');
+}
