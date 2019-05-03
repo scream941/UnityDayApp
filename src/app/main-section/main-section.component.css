@@ -4,14 +4,14 @@
   justify-content: flex-start;
   align-items: center;
 
-  height: 85vh;
-  padding-top: 2vh;
+  height: 500px;
+  padding-top: 20px;
 }
 .main-section-headline {
   text-align: center;
   color: white;
   font-size: 26px;
-  margin-bottom: 5vh;
+  margin-bottom: 100px;
 }
 
 .main-section-btn {
@@ -35,4 +35,28 @@
 }
 .main-section-btn__active:hover {
   transform: scale(1.05);
+}
+
+@media (max-width: 1080px) {
+  .main-section-headline {
+    font-size: 20px;
+  }
+  .main-section-btn {
+    width: 292px;
+    height: 48px;
+    font-size: 14px;
+  }
+}
+
+
+@media (max-width: 415px) {
+  .main-section-headline {
+    padding: 0 10px;
+  }
+}
+
+@media (max-width: 320px) {
+  .main-section {
+    height: 80vw;
+  }
 }

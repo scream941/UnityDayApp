@@ -7,7 +7,7 @@
   padding-right: 80px;
   padding-bottom: 20px;
 
-  height: 5vh;
+  height: 50px;
 
   font-size: 14px;
   color: white;
@@ -27,6 +27,7 @@ a:hover {
 
   background-position: center;
   background-repeat: no-repeat;
+  background-size: 100%;
 }
 
 .footer-partners-visa {
@@ -60,4 +61,62 @@ a:hover {
   flex-direction: row;
   justify-content: space-between;
   margin-right: 40px;
+}
+
+@media (max-width: 1080px) {
+  .footer {
+    padding-left: 16px;
+    padding-right: 62px;
+    font-size: 11px;
+  }
+  .footer-partners-visa, .footer-partners-uniteller {
+    width: 40px;
+    height: 36px;
+  }
+  .footer-partners-visa {
+    margin-right: 8px;
+  }
+  .footer-nav {
+    width: 512px;
+  }
+  .footer-other {
+    width: 352px;
+  }
+  .footer-partners {
+    margin-right: 32px;
+  }
+}
+
+@media (max-width: 700px) {
+  .footer {
+    font-size: 11px;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .footer-nav {
+    width: 480px;
+  }
+  .footer-other {
+    width: 200px;
+  }
+  .footer-partners {
+    display: none;
+  }
+}
+
+@media (max-width: 415px) {
+  .footer {
+    padding: 0 5px;
+    font-size: 9px;
+  }
+  .footer-other {
+    display: none;
+  }
+}
+
+
+@media (max-width: 320px) {
+  .footer {
+    font-size: 7px;
+  }
 }

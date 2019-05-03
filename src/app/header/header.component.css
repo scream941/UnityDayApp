@@ -12,7 +12,7 @@ a:hover {
   flex-direction: row;
   justify-content: space-between;
 
-  height: 10vh;
+  height: 80px;
   padding-left: 20px;
   padding-right: 25px;
   padding-top: 10px;
@@ -20,9 +20,10 @@ a:hover {
 .header-logo {
   width: 265px;
   height: 65px;
+  background-size: 100%;
   background-image: url('../../images/n_logo.png');
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center center;
 }
 .header-nav {
   display: flex;
@@ -73,4 +74,42 @@ a:hover {
 .header-auth-registration-btn:hover {
   background-color: white;
   color: #34e67f;
+}
+
+@media (max-width: 1080px) {
+  .header-logo {
+    width: 215px;
+    height: 55px;
+    margin-top: 10px;
+  }
+  .header-nav {
+    width: 400px;
+    font-size: 14px;
+  }
+  .header-auth-enter-btn, .header-auth-registration-btn {
+    height: 40px;
+    font-size: 14px;
+  }
+  .header-auth-enter-btn {
+    width: 72px;
+  }
+  .header-auth-registration-btn {
+    width: 120px;
+  }
+}
+
+@media (max-width: 700px) {
+  .header-logo {
+    display: none;
+  }
+}
+
+@media (max-width: 415px) {
+  .header {
+    justify-content: center;
+    padding: 20px 0 0 0;
+  }
+  .header-nav {
+    display: none;
+  }
 }

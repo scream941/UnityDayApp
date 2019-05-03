@@ -9,3 +9,9 @@
   background-repeat: no-repeat;
   background-position: right bottom;
 }
+
+@media (max-width: 700px) {
+  .main {
+    background-size: 840px 730px;
+  }
+}
